@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   
   <PropertyGroup>
+    <PackageId>134130.MonoMac</PackageId>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <BaseDefines Condition="$(BaseDefines) == ''">MONOMAC;MAC64;SDCONVERT</BaseDefines>
     <Version>0.0.1</Version>
